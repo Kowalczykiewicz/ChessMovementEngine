@@ -12,6 +12,9 @@ object Dependencies {
     "dev.zio" %% "zio"               % "2.0.21",
     "dev.zio" %% "zio-kafka"         % "2.7.4",
     "dev.zio" %% "zio-http"          % "3.0.0-RC4",
+    "dev.zio" %% "zio-test"          % "2.0.21" % Test,
+    "dev.zio" %% "zio-test-sbt"      % "2.0.21" % Test,
+    "dev.zio" %% "zio-test-magnolia" % "2.0.21" % Test
   )
 
   lazy val tapir: Seq[ModuleID] = Seq(
